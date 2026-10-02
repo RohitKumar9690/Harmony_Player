@@ -1,0 +1,161 @@
+/* Global */
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+}
+
+/* Side panels */
+.side-panel {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Lyrics panel gradient */
+.lyrics-panel {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%,
+        rgba(255,255,255,0.08) 0%,
+        rgba(0,0,0,0.18) 100%);
+    -fx-background-radius: 12;
+    -fx-border-color: rgba(255,255,255,0.10);
+    -fx-border-radius: 12;
+}
+
+/* TextArea */
+.text-area {
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+}
+
+.lyrics-text .content {
+    -fx-background-color: rgba(0, 0, 0, 0.30);
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: transparent;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+}
+
+.list-cell:hover {
+    -fx-background-color: derive(-fx-accent, -25%);
+}
+
+.list-cell:selected {
+    -fx-background-color: -fx-accent;
+    -fx-text-fill: white;
+}
+
+/* Buttons (THEMED) */
+.button {
+    -fx-background-color: -fx-accent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: derive(-fx-accent, 15%);
+}
+
+.button:pressed {
+    -fx-background-color: derive(-fx-accent, -15%);
+}
+
+/* Control buttons (round) */
+.control-button {
+    -fx-background-radius: 30;
+    -fx-min-width: 60px;
+    -fx-min-height: 60px;
+}
+
+/* Mode buttons */
+.mode-button {
+    -fx-background-color: rgba(255, 255, 255, 0.20);
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+}
+
+.mode-button:hover {
+    -fx-background-color: derive(-fx-accent, -15%);
+}
+
+/* Flat button (Edit) */
+.flat-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.flat-button:hover {
+    -fx-background-color: rgba(255,255,255,0.12);
+}
+
+/* Accent utility button */
+.accent-button {
+    -fx-background-color: -fx-accent;
+    -fx-text-fill: white;
+}
+
+/* Danger buttons */
+.danger-button {
+    -fx-background-color: #d32f2f;
+    -fx-text-fill: white;
+}
+
+.danger-button:hover {
+    -fx-background-color: #b71c1c;
+}
+
+/* Toggle (Sync) */
+.mode-toggle {
+    -fx-background-color: rgba(255, 255, 255, 0.20);
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+}
+
+.mode-toggle:selected {
+    -fx-background-color: -fx-accent;
+}
+
+/* Sliders */
+.slider .track {
+    -fx-background-color: rgba(255, 255, 255, 0.30);
+}
+
+.slider .thumb {
+    -fx-background-color: -fx-accent;
+    -fx-background-radius: 1em;
+}
+
+/* Menu Bar */
+.menu-bar {
+    -fx-background-color: rgba(0, 0, 0, 0.30);
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+/* Progress Indicator */
+.progress-indicator {
+    -fx-progress-color: -fx-accent;
+}
+
+/* Status bar */
+.status-bar {
+    -fx-background-color: rgba(0, 0, 0, 0.50);
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
